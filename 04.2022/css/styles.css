@@ -1,0 +1,198 @@
+body  {
+background-color: #181818;
+height: 10000px;
+}
+html {
+    font-size: 18px;
+    font-family: Roboto, Arial, sans-serif;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(55, 55, 55);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ef921c;
+    border-radius: 10px;
+}
+*::selection {
+    color: #fff;
+    background: #303030;
+}
+.headerer {
+    color: #fff;
+    z-index: 999;
+}
+#header {
+    height: 56px;
+    background-color: #202020;
+    border-bottom: 1px solid rgb(55, 55, 55);
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    
+}
+#start {
+    width: 169px;
+    height: 38px;
+    
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 16px;
+    
+    padding-top:18px
+
+}
+.logotext {
+    position: fixed;
+    
+    top: 18px;
+    left: 75px;
+}
+#hub {
+   color: #ef921c;
+}
+.svg {
+    position: fixed;
+    
+    top: 16px;
+    left: 25px;
+    color: #fff;
+}
+svg {
+
+    position: fixed;
+   
+    top: 16px;
+    left: 25px;
+}
+.svg {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    
+}
+.svg:hover {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ef921c;
+}
+.leftbar {
+    height: 100%;
+    width: 262px;
+    background-color: #202020;
+    position: fixed;
+    top: 57px;
+    left: 0px;
+    border-right: 1px solid rgb(55, 55, 55);
+    overflow-y: scroll;
+
+}
+.hidden {
+    display: none;
+}
+.barhead {
+    width: -13px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    font-size: 22px;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+.studentlist {
+    height: 1201px;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    
+    left: 0px;
+    background-color: #202020;
+    z-index: 1;
+}
+li {
+    padding-top: 25px;
+    padding-left: 0px;
+}
+.accord {
+    cursor: pointer;
+}
+.accord:hover {
+color: rgb(104, 102, 102);
+}
+.hiddenaccord {
+    display: none;
+}
+.cont {
+    background-color: #202020;
+    height: 30px;
+    position: relative;
+    top: 38px;
+    left: 0px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    z-index: 3;
+
+}
+.spancont {
+    cursor: pointer;
+
+}
+.spancont:hover {
+    color: rgb(104, 102, 102);
+}
+.divcont {
+    background-color: #202020;
+    height: 160px;
+    position: relative;
+    top: 30px;
+    left: -25px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    z-index: 2;
+}
+
+.ulcont {
+list-style: none;
+}
+.divlinkgames {
+    width: 79px;
+    height: 25px;
+    position: fixed;
+    top: 18px;
+    left: 1664px;
+    text-align: center;
+    
+    background-color: #202020;
+    
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.agames {
+    color: rgb(255, 255, 255);
+}
+.linktriple {
+    width: 79px;
+    height: 25px;
+    position: fixed;
+    top: 18px;
+    left: 900px;
+    text-align: center;
+    
+    background-color: #202020;
+    
+}

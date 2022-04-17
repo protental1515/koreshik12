@@ -1,0 +1,63 @@
+body {
+    background-color: #202020;
+}
+*::selection {
+    color: white;
+    background: #303030;
+}
+button {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+#rock {
+    background-color: rgb(211, 57, 52);
+    margin-right: 0px;
+}
+#rock:hover {
+    background-color: rgb(212, 95, 91);
+}
+#paper {
+    background-color: rgb(42, 94, 163);
+    margin-left: 10px;
+}
+#paper:hover {
+    background-color: rgb(70, 133, 216);
+}
+#scissors {
+    background-color: rgb(37, 158, 63);
+    margin-left: 10px;
+}
+#scissors:hover {
+    background-color: rgb(46, 219, 84);
+}
+#zuefa {
+    
+background-color: azure;
+border-radius: 50px;
+width: 300px;
+height: 300px;
+
+position: relative;
+    top: 197px;
+    left: 790px;
+    padding-top: 20px;
+    padding-left: 30px;
+
+}
+.buttons {
+    position: relative;
+    left: 3px;
+    top: 30px;
+    
+}
+#logo {
+    color: azure;
+    font-size: 120px;
+    position: relative;
+    left: 715px;
+    top: -312px;
+    width: 1000px;
+    
+}

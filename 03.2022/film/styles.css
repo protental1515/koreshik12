@@ -1,0 +1,178 @@
+body {
+
+    
+    padding: 55px;
+    padding-top: 100px;
+    background: #202020;
+    font-family: 'Raleway', sans-serif;
+ 
+
+}
+*::selection {
+    color: white;
+    background: #303030;
+}
+.main {
+    border: 2px solid black;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 650px;
+    position: relative;
+    background: #fff;
+    
+}
+.main div {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.b1 { position: static;
+    margin: 10px;
+   border-radius: 25px;
+    background: rgb(255, 0, 0);
+    line-height: 50px;
+    left: 0px;
+    top: 0px;
+   
+
+}
+.b2 { position: static;
+    margin: 10px;
+    border-radius: 25px;
+    background: rgb(255, 187, 1);
+    line-height: 50px;
+    left: 0px;
+    top: 0px;
+   
+   
+
+}
+.b3 {     position: fixed;
+
+    margin: 0px;
+   border-radius:  0 0 45px 45px;
+    background: rgb(190, 229, 255);
+    line-height: 60px;
+    left: 0px;
+    top: 0px;
+
+    width: 100%;
+}
+.lin {
+    text-decoration: none;
+    font-size: 20px;
+ color: #000; 
+}
+
+.lin:hover {
+    color: rgb(250, 250, 250);
+    font-size: 40px;
+    
+
+}
+
+
+.b4 {
+    position: static;
+    margin: 10px;
+    border-radius: 25px;
+    background: rgb(61, 245, 76);
+    line-height: 50px;
+    left: 0px;
+    top: 0px;
+}
+.b5 {
+    position: static;
+    margin: 10px;
+    border-radius: 25px;
+    background: rgb(12, 247, 255);
+    line-height: 50px;
+    left: 0px;
+    top: 0px;
+}
+.b6 {
+    position: static;
+    margin: 10px;
+    border-radius: 25px;
+    background: rgb(16, 19, 233);
+    line-height: 50px;
+    left: 0px;
+    top: 0px;
+}
+.b7 {
+    position: static;
+    margin: 10px;
+    border-radius: 25px;
+    background: rgb(200, 4, 235);
+    line-height: 50px;
+    left: 0px;
+    top: 0px;
+}
+p.p::first-letter{
+    color: blueviolet;
+    font-size: 30px;
+}
+p.p::first-line{
+    color: rgb(24, 238, 24);
+    font-size: 30px;
+}
+.b1:hover {
+    background: rgb(204, 90, 90);
+}
+.b2:hover {
+    background: rgb(223, 175, 65);
+}
+
+.b4:hover {
+    
+    background: rgb(115, 206, 103);
+}
+.b5:hover {
+    background: rgb(140, 221, 221);
+}
+.b6:hover {
+    background: rgb(107, 121, 199);
+}
+.b7:hover {
+    background: rgb(151, 94, 161);
+}
+.linvlad {
+    text-decoration: none;
+    color: #000;
+}
+.linvlad:hover {
+    color: #fff;
+}
+.side {
+    width: 400px;
+    height: 650px;
+    margin: 10px;
+    background-color: rgb(55, 55, 55);
+    border: 2px #000 solid;
+    
+    z-index: -3;
+    
+
+}
+#leftdiv {
+    float: left ;
+  position: relative;
+  top: -664px;
+    
+  left: 0px;
+ 
+}
+#rightdiv {
+    float: right;
+    position: relative;
+    top: -664px;
+    
+    left: 0px;
+   
+}
+.p {
+    color: white;
+}
